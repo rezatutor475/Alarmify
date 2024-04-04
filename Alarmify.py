@@ -1,49 +1,3 @@
-
-
-# Certainly! Here's a comprehensive overview of the characteristics inherent in the aforementioned code:
-
-# Modularity: The code is organized into separate classes (AlarmClock and Alarm), each responsible for specific functionalities. 
-# This promotes modularity and separation of concerns.
-
-
-# User Interaction: The code utilizes a menu system to interact with the user. 
-# The user can choose various options such as setting alarms, displaying alarms, deleting alarms, snoozing alarms, stopping alarms, or exiting the program.
-
-
-# Alarm Management: The AlarmClock class handles the management of alarms. 
-# It allows the user to set alarms by specifying the time, display the list of set alarms, delete specific alarms, snooze alarms by a given duration, and stop alarms.
-
-
-# Alarm Storage: The code utilizes a list (alarms) within the AlarmClock class to store and manage the set alarms. 
-# Alarms are represented as instances of the Alarm class and stored in the list.
-
-
-# Alarm Functionality: The Alarm class represents an individual alarm. 
-# It stores the datetime at which the alarm is set, along with flags to indicate if it has been snoozed or stopped. 
-# The Alarm class provides methods to check if the alarm time has been reached, play the alarm sound, snooze the alarm for a specified duration, and stop the alarm.
-
-
-# Exception Handling: The code includes exception handling to handle various possible errors, such as invalid time formats, invalid input for alarm number or snooze duration, and ensuring the input is within the valid range.
-
-
-# Sound Generation: The code utilizes the winsound module to generate a sound when the alarm time is reached. Currently, it uses a fixed frequency and duration, but this can be customized as per requirements.
-
-
-# DateTime Handling: The code uses the datetime module to handle date and time-related operations. 
-# It allows setting the alarm time, comparing with the current time, and performing snooze functionality.
-
-
-# Code Reusability: The code is designed in an object-oriented manner, promoting code reusability. 
-# The AlarmClock class and Alarm class can be easily extended and modified to add more functionalities or integrate with other systems.
-
-
-# User-Friendly Interface: The menu system provides a user-friendly interface to interact with the alarm clock. Users can easily set alarms, manage them, and perform actions such as snooze or stop.
-
-
-# Flexibility: The code is flexible and allows customization. 
-# You can add more features, modify the alarm behavior, incorporate additional functionalities, or integrate it into a larger application as needed.
-
-
 # Alarmify
 import datetime
 import time
@@ -183,4 +137,3 @@ if __name__ == "__main__":
 
 
 # Alarmify
-
